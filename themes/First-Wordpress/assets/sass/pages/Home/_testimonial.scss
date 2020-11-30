@@ -1,0 +1,24 @@
+.testimonial-section{
+
+	.testimonial-slider{
+
+		.client-img{
+			position: relative;
+			width: 90px;
+			height: 90px;
+			margin: 0 auto;
+
+			img{
+				width: 100%;
+				height: 100%;
+				@include border-radius(50px);
+			}
+		}//clinet-img
+
+		.qoute{
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+	}
+}

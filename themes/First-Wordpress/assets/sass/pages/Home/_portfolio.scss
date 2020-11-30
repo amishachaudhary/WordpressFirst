@@ -1,0 +1,31 @@
+.portfolio-filter{
+
+	li{
+		cursor: pointer;
+
+		&.active{
+			background: var(--primary-color);
+    		color: var(--white-color);
+    		text-decoration: none;
+		}
+	}
+
+}
+.portfolio-content{
+	padding: 10px 10px 0 10px;
+    background: #efefef;
+    position: relative;
+    top: -34px;
+    margin: 0 12px;
+    text-align: center;
+    box-shadow: 0 0 3px;
+}
+
+.portfolio-item{
+
+	img{
+		height: 240px;
+		width: 100%;
+		object-fit: cover;
+	}
+}

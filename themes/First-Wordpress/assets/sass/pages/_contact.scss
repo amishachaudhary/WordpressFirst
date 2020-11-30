@@ -1,0 +1,26 @@
+.contact-section{
+
+	.contact-info{
+
+		.icon{
+			width: 46px;
+			height: 46px;
+			@include border-radius(50px);
+		}
+
+	}
+	.contact-form{
+		label{
+			margin-bottom: 0;
+			font-weight: 600;
+		}
+
+		.form-control{
+			border-radius: 0;
+		}
+
+		.button-one{
+			cursor: pointer;
+		}
+	}
+}

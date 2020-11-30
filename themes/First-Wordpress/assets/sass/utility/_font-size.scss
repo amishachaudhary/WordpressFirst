@@ -1,0 +1,56 @@
+/*======================
+Font Sizes
+======================*/
+.xl-title{
+    font-size: 46px;
+    line-height: 64px;
+    font-weight: 600;
+    color: var(--font-color);
+}
+
+.lg-title{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600;
+    color: var(--font-color);
+}
+
+.md-title{
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 600;
+    color: var(--font-color);
+}
+
+.sm-title{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 600;
+    color: var(--font-color);
+    @include media(md){
+        font-size: 18px;
+    }
+}
+
+.ls-title{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    color: var(--font-color);
+}
+
+.xs-title{
+    font-size: 15px;
+    line-height: 28px;
+    color: var(--font-color);
+}
+
+.ts-title{
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--font-color);
+}
+
+.font-w-semi{
+    font-weight: 600;
+}

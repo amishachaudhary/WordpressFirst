@@ -1,0 +1,17 @@
+.service-detail-section{
+
+	.service-slider{
+
+		.slider-item{
+			@include border-radius(10px);
+
+			img{
+				height: 220px;
+				object-fit: cover;
+				@include border-radius(10px);
+				width: 100%;
+			}
+		}
+	}
+
+}

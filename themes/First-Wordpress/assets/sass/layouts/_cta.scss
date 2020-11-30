@@ -1,0 +1,16 @@
+.cta{
+	background: linear-gradient(to bottom, rgba(42, 44, 56, 0.4), rgba(52, 100, 210, 0.55)), url(../images/sliders/slider-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 68px 0;
+
+	.page-title{
+		color: var(--white-color);
+		@include media(lg){
+			font-size: 20px;
+			line-height: 26px;
+		}
+	}//page-title
+}

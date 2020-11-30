@@ -1,0 +1,90 @@
+.button-one{
+	padding: 6px 14px;
+	background: var(--primary-color);
+	color: var(--white-color);
+	display: inline-block;
+	border: 1px solid var(--primary-color);
+	@include transition(ease 0.3s);
+
+	&:hover{
+		background: transparent;
+		color: var(--primary-color) ;
+		text-decoration: none;
+	}
+}
+
+.button-two{
+	padding: 6px 14px;
+	background: transparent;
+	color: var(--primary-color);
+	display: inline-block;
+	border: 1px solid var(--primary-color);
+	@include transition(ease 0.3s);
+
+	&:hover{
+		background: var(--primary-color);
+		color: var(--white-color);
+		text-decoration: none;
+	}
+}
+
+.button-three{
+	padding: 6px 18px;
+	background: var(--white-color);
+	color: var(--font-color);
+	box-shadow: 0 0 4px rgba(0,0,0,0.4);
+	display: inline-block;
+	@include transition(ease 0.3s);
+	@include border-radius(30px);
+
+	&:hover{
+		background: var(--primary-color);
+		color: var(--white-color);
+		text-decoration: none;
+	}
+}
+
+.button-four{
+	padding: 6px 14px;
+	background: var(--primary-color);
+	color: var(--white-color);
+	display: inline-block;
+	@include transition(ease 0.3s);
+
+	&:hover{
+		background: var(--secondary-color);
+		color: var(--white-color) ;
+		text-decoration: none;
+	}
+}
+
+.button-one-sec{
+	padding: 6px 14px;
+	background: var(--secondary-color);
+	color: var(--white-color);
+	display: inline-block;
+	border: 1px solid var(--secondary-color);
+	@include transition(ease 0.3s);
+
+	&:hover{
+		background: transparent;
+		color: var(--secondary-color);
+		text-decoration: none;
+	}
+
+}
+
+.button-two-sec{
+	padding: 6px 14px;
+	background: transparent;
+	color: var(--secondary-color);
+	display: inline-block;
+	border: 1px solid var(--secondary-color);
+	@include transition(ease 0.3s);
+
+	&:hover{
+		background: var(--secondary-color);
+		color: var(--white-color);
+		text-decoration: none;
+	}
+}
